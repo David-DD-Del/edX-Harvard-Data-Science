@@ -3,13 +3,11 @@
 ##########################################################
 
 # Note: this process could take a couple of minutes
-if(!require(knitr)) install.packages("knitr", repos = "http://cran.us.r-project.org")
-if(!require(gridExtra)) install.packages("gridExtra", repos = "http://cran.us.r-project.org")
-if(!require(corrplot)) install.packages("corrplot", repos = "http://cran.us.r-project.org")
+if(!require(tidyverse)) install.packages("tidyverse", repos = "http://cran.us.r-project.org")
+if(!require(caret)) install.packages("caret", repos = "http://cran.us.r-project.org")
 
-library(knitr)
-library(gridExtra)
-library(corrplot)
+library(tidyverse)
+library(caret)
 
 # MovieLens 10M dataset:
 # https://grouplens.org/datasets/movielens/10m/
